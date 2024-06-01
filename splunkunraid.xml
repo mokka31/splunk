@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>splunk</Name>
-  <Repository>atunnecliffe/splunk</Repository>
-  <Registry>https://hub.docker.com/r/atunnecliffe/splunk</Registry>
+  <Repository>kboulassel/splunk</Repository>
+  <Registry>https://hub.docker.com/r/kboulassel/splunk</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
@@ -11,11 +11,12 @@
   <Project>https://www.splunk.com/</Project>
   <Overview>This is a Dockerfile for Splunk designed for OpenShift and unRAID based on Alpine Linux - https://www.splunk.com&#xD;
 &#xD;
-If you run the Dockerfile with no arguments you will get a single instance of Splunk 9.0.3 with the user admin:changeme2019.&#xD;
+Fork from https://github.com/andrew207/splunk
+&#xD;
+If you run the Dockerfile with no arguments you will get a single instance of Splunk 9.2.1 with the user admin:changeme.&#xD;
 &#xD;
 The web interface is exposed on port HTTP/8000, data ingest on TCP/9997, and API on HTTPS/8089.&#xD;
-&#xD;
-Compatible with Splunk 7.1.0 and newer. </Overview>
+</Overview>
   <Category>Tools:Utilities Network:Management Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/andrew207/splunk/master/splunkunraid.xml</TemplateURL>
@@ -23,7 +24,7 @@ Compatible with Splunk 7.1.0 and newer. </Overview>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1568943898</DateInstalled>
+  <DateInstalled>1717272461</DateInstalled>
   <DonateText>Donate to Dockerfile author via PayPal</DonateText>
   <DonateLink>https://paypal.me/atunnecliffe</DonateLink>
   <Description>This is a Dockerfile for Splunk designed for OpenShift and unRAID based on Alpine Linux - https://www.splunk.com&#xD;
